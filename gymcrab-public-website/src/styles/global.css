@@ -1,0 +1,20 @@
+ 
+
+@import "./colors.css";
+@import "./typography.css";
+
+  @import "tailwindcss";
+
+/* RESET DEFAULT BROWSER SPACING */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* SET DEFAULT FONT */
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
